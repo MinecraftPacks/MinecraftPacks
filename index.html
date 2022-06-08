@@ -668,7 +668,20 @@ nav {
 	</div>
 <!-- ========================================== NAVIGATION BAR END ========================================== -->
 	<div class="first-div" id="Home">
-		
+		<script type="text/javascript" src="https://pablomcprojects.github.io/discord-widget-master/discord.min.js"></script>
+		<script type="text/javascript">
+		    discordWidget.init({
+		        serverId: '',
+		        title: 'a',
+		        join: true,
+		        alphabetical: false,
+		        theme: 'dark',
+		        hideChannels: ['🔊-general'],
+		        showAllUsers: false,
+		        allUsersDefaultState: false
+		    });
+		    discordWidget.render();
+		</script>
 		<div class="split-in-2b">
 			<div class="filler">
 				<h1>Welcome to my portfolio!</h1>
